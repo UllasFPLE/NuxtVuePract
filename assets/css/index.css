@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Montreal';
+  src: url('../static/fonts/NeueMontreal-Bold.otf') format('otf'),
+       url('../static/fonts/NeueMontreal-BoldItalic.otf') format('otf'),
+       url('../static/fonts/NeueMontreal-Italic.otf') format('otf'),
+       url('../static/fonts/NeueMontreal-Light.otf') format('otf'),
+       url('../static/fonts/NeueMontreal-Medium.otf') format('otf'),
+       url('../static/fonts/NeueMontreal-Regular.otf') format('otf');
+  /* Additional font formats can be added as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Montreal', sans-serif; /* Use Montreal as the preferred font */
+}
