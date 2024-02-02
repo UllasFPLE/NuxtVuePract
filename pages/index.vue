@@ -19,15 +19,12 @@
         word="Correlated" />
     </section>
     <section class="p-[10px] sm:p-[30px] sm:px-[60px] flex flex-col md:flex-row gap-9">
-      <Imager image="https://framerusercontent.com/images/AX9PukosNfGVcfXw3YapiYpl9g.jpg?scale-down-to=1024"
-        word="Channel 5" />
+      <Imager image="https://framerusercontent.com/images/AX9PukosNfGVcfXw3YapiYpl9g.jpg?scale-down-to=1024" word="Channel 5" />
       <Imager image="https://framerusercontent.com/images/BAXywubxN8sAhfJg3AgGgFI.jpg?scale-down-to=1024"
         word="Ronald Abram" />
     </section>
     <section class="p-[10px] sm:p-[30px] sm:px-[60px] flex flex-col md:flex-row gap-9">
-      <Videor
-        video="https://framerusercontent.com/modules/assets/XuzMZ3Z1QQHKltPqRjzGnsWs27M~Jq48dGctHPeHtnn90xE_Aem-3HQJB_aNVwfu2fao5Ok.mp4"
-        word="Propeller" />
+      <Videor video="https://framerusercontent.com/modules/assets/XuzMZ3Z1QQHKltPqRjzGnsWs27M~Jq48dGctHPeHtnn90xE_Aem-3HQJB_aNVwfu2fao5Ok.mp4" word="Propeller" />
       <Imager image="https://framerusercontent.com/images/3WALBX7nnuG7p85CLjlVmWPDHw.jpg?scale-down-to=1024"
         word="Schuh" />
     </section>
