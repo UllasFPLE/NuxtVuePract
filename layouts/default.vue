@@ -11,7 +11,7 @@
         <div class="blur-background absolute inset-0 -z-10"></div>
       </div>
     </header>
-    <div class="p-[40px] min-h-svh sm:mt-28">
+    <div class="p-[40px] min-h-svh sm:mt-20">
       <slot />
     </div>
   </div>
