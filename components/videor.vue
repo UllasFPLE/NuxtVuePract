@@ -1,6 +1,6 @@
 <template>
-  <div class="rounded-[20px] overflow-clip relative" @mouseenter="makeTrue(1)" @mouseleave="makeFalse">
-    <video class="pic_blur rounded-[20px] transition-all duration-300 absolute scale-110" :class="{ 'blur-md': Hovering, '': !Hovering }"
+  <div class="flex-1 rounded-[20px] overflow-clip relative" @mouseenter="makeTrue(1)" @mouseleave="makeFalse">
+    <video class="pic_blur rounded-[20px] transition-all duration-300 scale-110" :class="{ 'blur-md': Hovering, '': !Hovering }"
       :src="video" alt="" autoplay loop @mouseover="hoverBlur" @mouseout="removeBlur"></video>
     <div
       class="text_in flex absolute transition-all duration-300 w-full justify-between items-center top-[6%] px-8 left-0 z-10 text-white"
