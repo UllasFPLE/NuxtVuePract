@@ -10,7 +10,7 @@
         <p class="text-[20px] text-white">{{ word1 }}</p>
         <nuxt-link :to="'/about/?image=' + image1 + '&name=' + word1"
           class="material-icons text-[18px] bg-white text-black p-3 rounded-full hover:shadow-xl transition-all duration-[400ms]"
-          :class="{ 'translate-y-[15px] translate-x-[-15px]': !hoverEd1, 'translate]': hoverEd1 }">north_east</nuxt-link>
+          :class="{ 'translate-y-[15px] tran,,,,,slate-x-[-15px]': !hoverEd1, 'translate]': hoverEd1 }">north_east</nuxt-link>
       </div>
     </div>
     <div class="rounded-[20px] overflow-clip relative" @mouseenter="makeTrue(2)" @mouseleave="makeFalse(2)">
@@ -32,8 +32,8 @@
 <script setup>
 const hoverEd1 = ref(false);
 const hoverEd2 = ref(false);
-const Hovering1 = ref(false)
-const Hovering2 = ref(false)
+const Hovering1 = ref(false);
+const Hovering2 = ref(false);
 
 const hoverBlur = (index) => {
   if (index === 1) {

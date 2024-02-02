@@ -13,14 +13,15 @@
           Systems</p>
       </div>
     </section>
-    <homeImagesections image1="https://framerusercontent.com/images/kfr022WaJ8YJUyZFmdwCB3pXhs.jpg?scale-down-to=1024"
-      image2="https://framerusercontent.com/images/QVKFKT3dyGxloXfzzpurVKNMM6M.jpg?scale-down-to=1024" word1="Ari" word2="Correlated"/>
-    <homeImagesections image1="https://framerusercontent.com/images/AX9PukosNfGVcfXw3YapiYpl9g.jpg?scale-down-to=1024"
-      image2="https://framerusercontent.com/images/BAXywubxN8sAhfJg3AgGgFI.jpg?scale-down-to=1024" word1="Channel 5" word2="Ronald Abram"/>
+    <section class="p-[10px] sm:p-[30px] sm:px-[60px] flex flex-col md:flex-row gap-9">
+      <Imager image="https://framerusercontent.com/images/kfr022WaJ8YJUyZFmdwCB3pXhs.jpg?scale-down-to=1024" word="Ari" />
+      <Imager image="https://framerusercontent.com/images/kfr022WaJ8YJUyZFmdwCB3pXhs.jpg?scale-down-to=1024" word="Ari" />
+    </section>
   </div>
 </template>
 
 <script setup>
+
 
 </script>
 
