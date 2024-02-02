@@ -5,10 +5,13 @@
     <div
       class="text_in flex absolute transition-all duration-300 w-full justify-between items-center top-[5%] px-8 left-0 z-10 text-white"
       :class="{ 'opacity-0': !hoverEd, 'opacity-100': hoverEd }" @mouseenter="hoverBlur" @mouseleave="removeBlur">
-      <p class="text-[20px] text-white">{{ word }}</p>
+      <div>
+        <p class="text-[20px] text-white">{{ word }}</p>
+        <p class="text-[20px] text-[#7f7f7f]">Coming Soon</p>
+      </div>
       <nuxt-link :to="'/about/?image=' + image + '&name=' + word"
-        class="material-icons text-[18px] bg-white text-black p-4 rounded-full hover:shadow-xl transition-all duration-[400ms]"
-        :class="{ 'translate-y-[15px] translate-x-[-15px]': !hoverEd, 'translate]': hoverEd }">north_east</nuxt-link>
+        class="material-icons text-[18px] bg-black text-white p-4 rounded-full hover:shadow-xl transition-all duration-[400ms]"
+        :class="{ 'translate-y-[15px] translate-x-[-15px]': !hoverEd, 'translate]': hoverEd }">lock</nuxt-link>
     </div>
   </div>
 </template>
