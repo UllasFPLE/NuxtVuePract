@@ -1,7 +1,7 @@
 <template>
   <div class="w-full flex flex-col justify-end items-end">
     <footer
-      class="w-full h-[200px] sm:h-[300px] md:h-[500px] sm:p-[40px] mt-[100px] flex justify-center items-center flex-col">
+      class="w-full h-[200px] sm:h-[300px] md:h-[500px] sm:p-[40px] flex justify-center items-center flex-col">
       <h1 class="font-[Neue Montreal] text-[30px] sm:text-[38px] md:text-[45px] text-nowrap text-black ">Let's work
         together.
       </h1>

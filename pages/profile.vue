@@ -1,7 +1,7 @@
 <template>
   <div class="w-full flex flex-col min-h-svh">
     <section class="w-full h-[400px] p-[20px] sm:p-[40px] md:h-[600px] flex justify-center items-center">
-      <h1 class="text-[36px] text-nowrap font-[Neue Montreal] font-semibold sm:text-[48px] md:text-[72px]">Hey 👋🏼 I'm
+      <h1 class="text-[36px] text-nowrap font-[Neue Montreal] font-medium sm:text-[48px] md:text-[72px]">Hey 👋🏼 I'm
         Ullas</h1>
     </section>
     <section class="w-full flex justify-center items-center gap-10 px-5 md:px-28">
@@ -22,10 +22,47 @@
     <section class="pt-[80px] px-[40px] pb-[40px] flex flex-col justify-center items-center gap-5">
       <p class="text-[14px] px-[12px] py-[8px] bg-[#e8e5e480] rounded-3xl text-black font-[Neue Montreal]">Experience</p>
       <h3 class="text-[24px] text-nowrap font-medium font-[Neue Montreal] text-center md:text-[38px] max-w-[700px]">
-       Where I've worked
+        Where I've worked
       </h3>
     </section>
-
-    <Footer />
-  </div>
-</template>
+    <section class="p-[20px] grid grid-cols-2 sm:grid-cols-3 md:px-[80px]">
+      <div class="p-[40px] flex flex-col gap-8 justify-center items-center w-full">
+        <div class="flex flex-col gap-2">
+          <p class="font-[Neue Montreal] capitalize text-[14px] text-[#828282] text-center text-nowrap">2024 - present</p>
+          <p class="font-[Neue Montreal] text-[18px] text-center text-nowrap">FPLE</p>
+          <p class="font-[Neue Montreal] capitalize text-[14px] text-[#828282] text-center text-nowrap">Front End Dev</p>
+        </div>
+        <div>
+          <p
+            class="text-[14px] px-[12px] py-[8px] bg-[#e8e5e480] rounded-3xl text-black font-[Neue Montreal] text-nowrap">
+            Front End
+            Dev</p>
+        </div>
+      </div>
+      <div class="p-[40px] flex flex-col gap-8 justify-center items-center w-full">
+        <div class="flex flex-col gap-2">
+          <p class="font-[Neue Montreal] capitalize text-[14px] text-[#828282] text-center text-nowrap">2023</p>
+          <p class="font-[Neue Montreal] text-[18px] text-center text-nowrap">SciPy</p>
+          <p class="font-[Neue Montreal] capitalize text-[14px] text-[#828282] text-center text-nowrap">React Dev</p>
+        </div>
+        <div>
+          <p
+            class="text-[14px] px-[12px] py-[8px] bg-[#e8e5e480] rounded-3xl text-black font-[Neue Montreal] text-nowrap">
+            Freelance</p>
+        </div>
+      </div>
+      <div class="p-[40px] flex flex-col gap-8 justify-center items-center w-full">
+        <div class="flex flex-col gap-2">
+          <p class="font-[Neue Montreal] capitalize text-[14px] text-[#828282] text-center text-nowrap">2022</p>
+          <p class="font-[Neue Montreal] text-[18px] text-center text-nowrap">SciPy</p>
+          <p class="font-[Neue Montreal] capitalize text-[14px] text-[#828282] text-center text-nowrap">Mern Stack Dev</p>
+        </div>
+        <div>
+          <p
+            class="text-[14px] px-[12px] py-[8px] bg-[#e8e5e480] rounded-3xl text-black font-[Neue Montreal] text-nowrap text-center">
+            Intern</p>
+        </div>
+      </div>
+  </section>
+  <Footer />
+</div></template>

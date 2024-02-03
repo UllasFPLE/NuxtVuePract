@@ -5,16 +5,37 @@
 @font-face {
   font-family: 'Montreal';
   src: url('../static/fonts/NeueMontreal-Bold.otf') format('otf'),
-       url('../static/fonts/NeueMontreal-BoldItalic.otf') format('otf'),
-       url('../static/fonts/NeueMontreal-Italic.otf') format('otf'),
-       url('../static/fonts/NeueMontreal-Light.otf') format('otf'),
-       url('../static/fonts/NeueMontreal-Medium.otf') format('otf'),
-       url('../static/fonts/NeueMontreal-Regular.otf') format('otf');
+    url('../static/fonts/NeueMontreal-BoldItalic.otf') format('otf'),
+    url('../static/fonts/NeueMontreal-Italic.otf') format('otf'),
+    url('../static/fonts/NeueMontreal-Light.otf') format('otf'),
+    url('../static/fonts/NeueMontreal-Medium.otf') format('otf'),
+    url('../static/fonts/NeueMontreal-Regular.otf') format('otf');
   /* Additional font formats can be added as needed */
   font-weight: normal;
   font-style: normal;
 }
 
-body {
-  font-family: 'Montreal', sans-serif; /* Use Montreal as the preferred font */
+html {
+  font-family: 'Neue Montreal', sans-serif;
+
+  --sb-track-color: #7f7f7f;
+  --sb-thumb-color: #red;
+  --sb-size: 0px;
+
+  scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+}
+
+html::-webkit-scrollbar {
+  width: var(--sb-size)
+}
+
+html::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 10px;
+
 }

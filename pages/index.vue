@@ -1,15 +1,15 @@
 <template>
   <div class="home_page flex flex-col justify-center items-center">
     <section class="w-full h-[400px] sm:h-[400px] md:h-[600px] flex flex-col justify-center gap-16 items-center">
-      <h1 class="text-[36px] max-w-[900px] font-[Neue Montreal] font-semibold text-center sm:text-[48px] md:text-[72px]">A
+      <h1 class="text-[36px] max-w-[900px] font-medium text-center sm:text-[48px] md:text-[72px]">A
         brand and product designer working with clients globally</h1>
       <div class="hidden sm:flex gap-3">
         <p class="font-[Neue Montreal] text-[14px] px-[12px] py-[8px]">Expertise</p>
-        <p class="font-[Neue Montreal] text-[14px] px-[12px] py-[8px] bg-[#e8e5e480] rounded-[50px] font-medium">Branding
+        <p class="font-[Neue Montreal] text-[14px] px-[12px] py-[8px] bg-[#e8e5e480] rounded-[50px]">Branding
         </p>
-        <p class="font-[Neue Montreal] text-[14px] px-[12px] py-[8px] bg-[#e8e5e480] rounded-[50px] font-medium">Product
+        <p class="font-[Neue Montreal] text-[14px] px-[12px] py-[8px] bg-[#e8e5e480] rounded-[50px]">Product
         </p>
-        <p class="font-[Neue Montreal] text-[14px] px-[12px] py-[8px] bg-[#e8e5e480] rounded-[50px] font-medium">Design
+        <p class="font-[Neue Montreal] text-[14px] px-[12px] py-[8px] bg-[#e8e5e480] rounded-[50px]">Design
           Systems</p>
       </div>
     </section>
@@ -45,7 +45,7 @@
       /> -->
       <div class="max-w-[500px] max-h-[400px] flex-1 rounded-[20px] overflow-clip relative" @mouseenter="makeTrue"
     @mouseleave="makeFalse">
-    <video class="pic_blur rounded-[20px] transition-all duration-300 scale-110 aspect-auto md:scale-y-150 mt-10"
+    <video class="pic_blur rounded-[20px] transition-all duration-300 scale-110 aspect-auto md:scale-y-150 sm:mt-10"
       :class="{ 'blur-md': Hovering, '': !Hovering }" src="https://framerusercontent.com/modules/assets/NieGBlxBdgpz9QCHV5Aj89rWjVg~DPEeC0jYyBwx9c865cOkUi-KzBM-3ukyhpgtPhvYo_U.mp4" alt="" autoplay loop @mouseover="hoverBlur"
       @mouseout="removeBlur"></video>
     <div
