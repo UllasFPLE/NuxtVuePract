@@ -7,7 +7,7 @@
       </h1>
       <nuxt-link
         class="text-[30px] sm:text-[38px] md:text-[42px] xl:text-[72px] text-nowrap text-[#7f7f7f] transition-all duration-150 hover:text-[#7f7f7f90]"
-        to="/contact">Get in touch.</nuxt-link>
+        to="https://www.linkedin.com/in/ullas-js-7694391b2/">Get in touch.</nuxt-link>
     </footer>
     <div class="w-full flex flex-col sm:flex-row justify-between">
       <div class="flex justify-center items-center gap-4 flex-col sm:flex-row mb-4 sm:m-0">
