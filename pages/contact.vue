@@ -34,10 +34,11 @@ const EnterAnimation = {
     duration: 400,
     ease: 'easeOut',
     type: 'spring',
-    stiffness: 250,
+    stiffness: 120,
     damping: 25,
     mass: 0.5,
   }
 }
+
 
 </script>
