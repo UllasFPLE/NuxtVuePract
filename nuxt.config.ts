@@ -8,7 +8,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ["@pinia/nuxt"],
+  modules: ["@pinia/nuxt", "@vueuse/motion/nuxt"],
   app: {
     head: {
       link: [

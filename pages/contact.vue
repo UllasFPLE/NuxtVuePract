@@ -1,6 +1,6 @@
 <template>
   <div class="w-full h-full flex flex-col justify-between items-center overflow-hidden">
-    <footer
+    <footer v-motion :initial="InitialPos" :enter="EnterAnimation" :delay="400"
       class="w-full flex-grow h-[200px] sm:h-[300px] md:h-[500px] sm:p-[40px] flex justify-center items-center flex-col">
       <h1 class="text-[30px] sm:text-[38px] md:text-[48px] xl:text-[72px] font-medium text-nowrap text-black ">Let's work
         together.
@@ -24,4 +24,20 @@
   </div>
 </template>
 
+<script setup>
 
+const InitialPos = { opacity: 0, y: 100 }
+
+const EnterAnimation = {
+  opacity: 1, y: 0,
+  transition: {
+    duration: 400,
+    ease: 'easeOut',
+    type: 'spring',
+    stiffness: 250,
+    damping: 25,
+    mass: 0.5,
+  }
+}
+
+</script>

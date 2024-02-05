@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-[500px] max-h-[400px] flex-1 rounded-[20px] overflow-clip relative cursor-pointer" @click="navigateTo(`/about/?image=${image}&name=${word}`)" @mouseenter="makeTrue"
+  <div  class="max-w-[500px] max-h-[400px] flex-1 rounded-[20px] overflow-clip relative cursor-pointer" @click="navigateTo(`/about/?image=${image}&name=${word}`)" @mouseenter="makeTrue"
     @mouseleave="makeFalse">
     <video class="pic_blur rounded-[20px] transition-all duration-300 scale-110 aspect-auto md:scale-125"
       :class="{ 'blur-md': Hovering, '': !Hovering }" :src="video" alt="" autoplay loop @mouseover="hoverBlur"

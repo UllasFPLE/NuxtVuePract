@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-[500px] max-h-[400px] flex-1 rounded-[20px] overflow-clip relative cursor-pointer" @mouseenter="makeTrue" @mouseleave="makeFalse">
+  <div  class="max-w-[500px] max-h-[400px] flex-1 rounded-[20px] overflow-clip relative cursor-pointer" @mouseenter="makeTrue" @mouseleave="makeFalse">
     <img class="pic_blur rounded-[20px] hover:blur-md transition-all duration-300 bg-cover"
       :class="{ 'blur-md': Hovering, '': !Hovering }" :src="image" alt="">
     <div
